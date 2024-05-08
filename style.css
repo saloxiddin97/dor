@@ -1,0 +1,53 @@
+
+.qale{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+background-color: aqua;
+flex-wrap: wrap;
+}
+
+.bor{
+    width: 300px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 10px;
+   
+    
+}
+@media(max-width:1000px){
+    .bor{
+        width: 300px;
+        height: 200px;
+        background-color: rgb(43, 46, 226);
+        margin: 10px;
+      
+        
+    } 
+    .qale{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+    background-color: rgb(255, 0, 0);
+    flex-wrap:wrap;
+    }
+}
+@media(max-width:800px){
+    .bor{
+        width: 300px;
+        height: 200px;
+        background-color: rgb(226, 43, 43);
+        margin: 10px;
+       
+    } 
+    .qale{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+    background-color: rgb(81, 255, 0);
+     flex-wrap: wrap;
+    }
+}
